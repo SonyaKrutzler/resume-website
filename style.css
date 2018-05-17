@@ -1,0 +1,62 @@
+
+html, body {
+	margin: 20px;
+	padding: 20px;
+}
+
+body {
+	font-family: 'Montserrat';
+}
+
+
+p {
+	font-family: 'Montserrat';
+}
+
+
+
+.heading h1 h3 {
+	font-family: 'Raleway';
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.redtext {
+	color: red;
+}
+
+
+.image {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;	
+	padding: 10px;
+}
+
+
+.font {
+	font-family: 'Montserrat';
+} 
+
+
+.container {
+	display: block;
+	position: center;
+	padding: 40px;
+}
+
+
+.contact {
+	display: inline-block;
+	padding: 10px;
+}
+
+
+.outer-container .overlay:hover {
+	background: rgba(255, 0, 0, 0.5);
+}
+
+
