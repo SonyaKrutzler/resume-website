@@ -14,7 +14,6 @@ p {
 }
 
 
-
 .heading h1 h3 {
 	font-family: 'Raleway';
 }
@@ -55,8 +54,44 @@ p {
 }
 
 
-.outer-container .overlay:hover {
-	background: rgba(255, 0, 0, 0.5);
+.container-hover {
+    position: relative;
+    height: 200px;
+    width: 200px;
 }
+
+.border {
+	position: relative;
+	height: 170px;
+	width: 170px;
+	color: white;
+	border-style: solid;
+}
+
+.center {
+    position: absolute;
+    left: 40%;
+    right: 10%;
+    top: 40%;
+    width: 0;
+    font-size: 18px;
+    color: transparent; 
+}    
+
+
+.img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.outer-container .overlay:hover {
+	background: rgb(0, 0, 0, 0.7);			 
+} 
+
+
+.outer-container .overlay:hover + .center {
+	color: white;			 
+} 
 
 
